@@ -18,7 +18,7 @@ jobs:
           AUTH_TOKEN: '${{ secrets.AUTH_TOKEN }}'
       - name: Run farming script
         run: |
-          node path/to/your/script.js 2>&1 | tee farming.log
+          node index.js
         env:
           AUTH_TOKEN: '${{ secrets.AUTH_TOKEN }}'
       - name: Upload log file
