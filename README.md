@@ -28,6 +28,6 @@ AUTH_TOKEN=your_auth_token_here
 
 # Contact
 For any inquiries or feedback, please contact:
-Name: Fadhel Ar Rizky Liranda
-Email: fadhelarrizkyliranda@gmail.com
-GitHub: fadhelarrizkyliranda
+- Name: Fadhel Ar Rizky Liranda
+- Email: fadhelarrizkyliranda@gmail.com
+- GitHub: fadhelarrizkyliranda
