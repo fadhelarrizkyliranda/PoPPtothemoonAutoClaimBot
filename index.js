@@ -116,8 +116,14 @@ async function fetchAssetPerMinute() {
 
 // Function to run the fetchAssetPerMinute function continuously every 5 seconds
 function runContinuously() {
-  fetchAssetPerMinute();
-  setInterval(fetchAssetPerMinute, 15 * 1000); // Run every 5 seconds
+  const intervalId = setInterval(fetchAssetPerMinute, 5 * 1000); // Run every 5 seconds
+
+  // Stop the interval after 10 minutes
+  setTimeout(() => {
+      clearInterval(intervalId);
+      console.log('Stopped running after 10 minutes.');
+      logToFile('Stopped running after 10 minutes.');
+  }, 10 * 60 * 1000); // 10 minutes
 }
 
 // Start the continuous run
