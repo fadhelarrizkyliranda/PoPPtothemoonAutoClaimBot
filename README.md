@@ -25,9 +25,3 @@ AUTH_TOKEN=your_auth_token_here
 # Run Test
 1. Open your terminal
 2. Extract it `node index.js`
-
-# Contact
-For any inquiries or feedback, please contact:
-- Name: Fadhel Ar Rizky Liranda
-- Email: fadhelarrizkyliranda@gmail.com
-- GitHub: fadhelarrizkyliranda
